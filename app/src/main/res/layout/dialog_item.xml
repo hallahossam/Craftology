@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="32dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="300dp"
+    android:layout_centerInParent="true"
+    android:layout_height="500dp"
+    android:id="@+id/img_selected_item"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab_order"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@android:drawable/ic_input_add"
+        />
+</RelativeLayout>
